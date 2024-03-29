@@ -40,11 +40,13 @@ function NavbarComponent() {
             style={{ maxHeight: '300px' }}
             navbarScroll
           >
+            <div className="navlinks-container">
             <Nav.Link className="navlink" as={Link} to="/womens">Womens <FontAwesomeIcon icon={faVenus} className="icon-space"/></Nav.Link>
             <Nav.Link className="navlink" as={Link} to="/mens">Mens <FontAwesomeIcon icon={faMars} className="icon-space"/></Nav.Link>
             <Nav.Link className="navlink" as={Link} to="/sale">Accessories & Bags</Nav.Link>
             <Nav.Link className="navlink" as={Link} to="/cart">Cart ({cartItems.length})<FontAwesomeIcon icon={faCartShopping} className="icon-space"/></Nav.Link>
-          
+            </div>
+            <div className="navlogin-container">
            {isLoggedIn ? (
              <Nav.Link className="navlogin" onClick={handleLogout}>Logout</Nav.Link>
               ) : (
@@ -52,6 +54,7 @@ function NavbarComponent() {
              )}
              <Nav.Link className="navlogin" as={Link} to="/register">Register</Nav.Link>
              <Nav.Link className="navlogin" as={Link} to="/favorites"><FaRegHeart color='red' className="icon-space" />({favorites.length})</Nav.Link>
+            </div>
              </Nav>
             </Navbar.Collapse> 
       </Container>
