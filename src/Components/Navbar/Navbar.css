@@ -63,6 +63,12 @@
     width: 100%;
   }
 
+  .navlinks-container, .navlogin-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 0;
+  }
+
   .navlink{
     justify-content: flex-start;
     flex-direction: row;
