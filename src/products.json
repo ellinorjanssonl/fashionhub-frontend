@@ -1,0 +1,330 @@
+[
+    {
+        "id": 1,
+        "name": "Black Corset",
+        "price": "100",
+        "category": "womens",
+        "imageUrl": "/bilder/top1.webp",
+        "description": "Cropped corset in woven fabric with a sheen. Boning at front and back, hook-and-eye fastening at front, and a concealed zip at back. Lined.",
+        "sizes": "XS, S, M, L, XL, XXL"
+    },
+
+    {
+        "id": 2,
+        "name": "White Corset",
+        "price": "200",
+        "category": "womens",
+        "imageUrl": "/bilder/top2.webp",
+        "description": "Cropped white corset in woven fabric with a sheen. Boning at front and back, hook-and-eye fastening at front, and a concealed zip at back. Lined.",
+        "sizes": "XS, S, M, L, XL, XXL"
+    },
+
+    {
+        "id": 3,
+        "name": "Flower shirt",
+        "price": "300",
+        "category": "womens",
+        "imageUrl": "/bilder/top3.webp",
+        "description": "Purple flower shirt in woven fabric with a sheen. Light material, full sleve shirt with small flowers and details everywhere.",
+        "sizes": "XS, S, M, L, XL, XXL"
+    },
+
+    {
+        "id": 4,
+        "name": "Beige shirt",
+        "price": "400",
+        "category": "womens",
+        "imageUrl": "/bilder/top4.webp",
+        "description": "Beige shirt with long arms and a high neck. The shirt is made of a soft material and has a nice fit. Open back with stripes",
+        "sizes": "XS, S, M, L, XL, XXL"
+    },
+
+    {
+        "id": 5,
+        "name": "Nude sweater",
+        "price": "500",
+        "category": "womens",
+        "imageUrl": "/bilder/top5.webp",
+        "description": "Handmade sweater in nude color. The sweater is made of a soft material and has a nice fit. brown buttons in the front.",
+        "sizes": "XS, S, M, L, XL, XXL"
+    },
+
+    {
+        "id": 6,
+        "name": "Black/white shirt",
+        "price": "600",
+        "category": "womens",
+        "imageUrl": "/bilder/top6.webp",
+        "description": "Black and white shirt with long arms and a high neck. The shirt is made of a soft material and has a nice fit. ot is shiny and has stripes all over.",
+        "sizes": "XS, S, M, L, XL, XXL"
+    },
+
+    {
+        "id": 7,
+        "name": "Black sweater",
+        "price": "700",
+        "category": "womens",
+        "imageUrl": "/bilder/top7.webp",
+        "description": "Handmade sweater in the color black. The sweater is made of a soft material and has a nice fit. it has a open front with details. very warm material.",
+        "sizes": "XS, S, M, L, XL, XXL"
+    },
+
+    {
+        "id": 8,
+        "name": "Shirt loose fit",
+        "price": "800",
+        "category": "womens",
+        "imageUrl": "/bilder/jeans1.webp",
+        "description": "A classic shirt in loose fit. Its in a color of beige and black and has a very light and soft materal. Buttons in the front. Oversize",
+        "sizes": "XS, S, M, L, XL, XXL"
+    },
+
+    {
+        "id": 9,
+        "name": "Mom jeans",
+        "price": "900",
+        "category": "womens",
+        "imageUrl": "/bilder/jeans2.webp",
+        "description": "Mom jeans in a dark blue color. The jeans are high waisted and has a straight fit. The jeans are made of a soft material and has a nice fit.Availeble in all sizes.",
+        "sizes": "XS, S, M, L, XL, XXL"
+    },
+
+    {
+        "id": 10,
+        "name": "Low waist jeans",
+        "price": "1000",
+        "category": "womens",
+        "imageUrl": "/bilder/jeans3.webp",
+        "description": "Low waist jeans in a light blue color. The jeans are low waisted and has a straight loose fit. The jeans are made of a soft material and has a nice fit. Availeble in all sizes.",
+        "sizes": "XS, S, M, L, XL, XXL"
+    },
+
+    {
+        "id": 11,
+        "name": "High waist jeans",
+        "price": "1100",
+        "category": "womens",
+        "imageUrl": "/bilder/jeans4.webp",
+        "description": "High waist jeans in a light greycolor. The jeans are high waisted and has a straight loose fit. Long legs and hard material. The jeans are made by hand and has a perfect fit. Availeble in all sizes.",
+        "sizes": "XS, S, M, L, XL, XXL"
+    },
+
+    {
+        "id": 13,
+        "name": "Beige long dress",
+        "price": "1300",
+        "category": "womens",
+        "imageUrl": "/bilder/dress1.webp",
+        "description": "Beige long dress with shoulder stipes and a low neck. The dress is made of silk and has a tight fit. it is shiny and stretchy. Availeble in all sizes",
+        "sizes": "XS, S, M, L, XL, XXL"
+    },
+
+    {
+        "id": 14,
+        "name": "Nude long dress",
+        "price": "1400",
+        "category": "womens",
+        "imageUrl": "/bilder/dress2.webp",
+        "description": "Nude long dress with long arms. The dress is made of cutton and has a loose fit. it is warm and stretchy. Suiteble for fall and winter. Availeble in all sizes",
+        "sizes": "XS, S, M, L, XL, XXL"
+    },
+
+    {
+        "id": 15,
+        "name": "Black/beige long dress",
+        "price": "1500",
+        "category": "womens",
+        "imageUrl": "/bilder/dress3.webp",
+        "description": "Black and beige long dress with long arms. The dress is made of cutton and has a looser fit. it is very stretchy. Suiteble for fall and winter. Availeble in all sizes",
+        "sizes": "XS, S, M, L, XL, XXL"
+    },
+
+    {
+        "id": 17,
+        "name": "Blue T-shirt",
+        "price": "100",
+        "category": "mens",
+        "imageUrl": "/bilder/mens1.jpg",
+        "description": "Dark blue t-shirt with a round neck. The t-shirt is made of a soft cutton material and has a nice fit. it is stretchy. Availeble in all sizes",
+        "sizes": "XS, S, M, L, XL, XXL"
+    },
+    {
+        "id": 18,
+        "name": "Black T-shirt",
+        "price": "200",
+        "category": "mens",
+        "imageUrl": "/bilder/mens2.jpg",
+        "description": "Black t-shirt with a round neck. The t-shirt is made of a soft cutton material and has a nice fit. it is stretchy. Availeble in all sizes",
+        "sizes": "XS, S, M, L, XL, XXL"
+    },
+    {
+        "id": 19,
+        "name": "Earings gold",
+        "price": "300",
+        "category": "mens",
+        "imageUrl": "/bilder/mens3.webp",
+        "description": "Gold earings with a round shape. The earings are made of real gold. They are handmade and has a nice fit. Availeble in one size",
+        "sizes": "Onesize"
+    },
+    {
+        "id": 20,
+        "name": "light blue shirt",
+        "price": "400",
+        "category": "mens",
+        "imageUrl": "/bilder/mens4.jpg",
+        "description": "Light blue shirt with buttons in the front. The shirt is made of a soft cutton material and has a nice fit. it is not stretchy. Availeble in all sizes",
+        "sizes": "XS, S, M, L, XL, XXL"
+    },
+    {
+        "id": 21,
+        "name": "White tanktop",
+        "price": "500",
+        "category": "mens",
+        "imageUrl": "/bilder/mens5.jpg",
+        "description": "White tanktop with a round high neck. The tanktop is made of a soft cutton material and has a nice fit. it is stretchy. Availeble in all sizes",
+        "sizes": "XS, S, M, L, XL, XXL"
+    },
+    {
+        "id": 22,
+        "name": "White T-shirt",
+        "price": "600",
+        "category": "mens",
+        "imageUrl": "/bilder/mens6.jpg",
+        "description": "White t-shirt with a round neck. The t-shirt is made of a soft cutton material and has a loose fit. it is stretchy and light. Availeble in all sizes",
+        "sizes": "XS, S, M, L, XL, XXL"
+    },
+    {
+        "id": 23,
+        "name": "Beige sweater",
+        "price": "700",
+        "category": "mens",
+        "imageUrl": "/bilder/mens7.jpg",
+        "description": "Long-sleeve sweater in a light beige color. The sweater is made of a soft cutton material and has a loose fit. it is stretchy and warm. Availeble in all sizes",
+        "sizes": "XS, S, M, L, XL, XXL"
+    },
+    {
+        "id": 24,
+        "name": "Beige t-shirt",
+        "price": "800",
+        "category": "mens",
+        "imageUrl": "/bilder/mens8.jpg",
+        "description": "Beige t-shirt with a round neck. The t-shirt is made of a soft cutton material and has a nice loose fit. it is stretchy. Availeble in all sizes",
+        "sizes": "XS, S, M, L, XL, XXL"
+    },
+    {
+        "id": 25,
+        "name": "Black/white shirt",
+        "price": "900",
+        "category": "mens",
+        "imageUrl": "/bilder/mens9.jpg",
+        "description": "Black and white shirt with buttons. The shirt is made of a silk material and has a nice loose fit. it is one of our most elegant products. Availeble in all sizes",
+        "sizes": "XS, S, M, L, XL, XXL"
+    },
+    {
+        "id": 26,
+        "name": "Beige suit",
+        "price": "1000",
+        "category": "mens",
+        "imageUrl": "/bilder/mens10.jpg",
+        "description": "Beige suit with a jacket and pants. The suit is made of a cutton material and has a nice tight fit. it is one of our most elegant products. Availeble in all sizes",
+        "sizes": "XS, S, M, L, XL, XXL"
+    },
+
+    {
+        "id": 27,
+        "name": "Green bag",
+        "description": "Green bag with a short strap. The bag is made of leather. it is medium sized. Availeble in one size only",
+        "sale": "20% off",
+        "category": "sale",
+        "imageUrl": "/bilder/bild3.webp",
+        "price": "120",
+        "newprice": "100",
+        "sizes": "Onesize"
+       },
+      
+         {
+          "id": 28,
+          "name": "Black Bag",
+          "description": "Black bag with a long strap. The bag is made of leather. it is medium sized. Availeble in one size only",
+          "sale": "30% off",
+          "category": "sale",
+          "imageUrl": "/bilder/bild2.webp",
+          "price": "150",
+          "newprice": "105",
+          "sizes": "Onesize"
+         },
+    
+         {
+          "id": 29,
+          "name": "White bag",
+          "description": "White bag with a short straps. The bag is made of leather. Handmade. It is medium sized. Availeble in one size only",
+          "sale": "40% off",
+          "category": "sale",
+          "imageUrl": "/bilder/bild4.webp",
+          "price": "200",
+          "newprice": "120",
+          "sizes": "Onesize"
+         },
+    
+         {
+          "id": 30,
+          "name": "Black small bag",
+          "description": "Black small bag with a long strap. The bag is made of leather. it is small sized. Availeble in one size only",
+          "sale": "50% off",
+          "category": "sale",
+          "imageUrl": "/bilder/bild1.webp",
+          "price": "250",
+          "newprice": "125",
+          "sizes": "Onesize"
+         },
+        
+             {
+            "id": 31,
+            "name": "Black sunglasses",
+            "description": "Black sunglasses with a round shape. The sunglasses are made of real glass. Availeble in one size only",
+            "sale": "60% off",
+            "category": "sale",
+            "imageUrl": "/bilder/bild5.webp",
+            "price": "300",
+            "newprice": "120",
+            "sizes": "Onesize"
+             },
+        
+             {
+            "id": 32,
+            "name": "Earings 4-pack",
+            "description": "Gold earings with a round shape. The earings are made of real gold. They are handmade and has a nice fit. Availeble in one size only",
+            "sale": "70% off",
+            "category": "sale",
+            "imageUrl": "/bilder/bild6.webp",
+            "price": "350",
+            "newprice": "105",
+            "sizes": "Onesize"
+             },
+        
+             {
+            "id": 33,
+            "name": "brown sunglasses",
+            "description": "Brown sunglasses with a round shape. The sunglasses are made of real glass. Availeble in one size only",
+            "sale": "80% off",
+            "category": "sale",
+            "imageUrl": "/bilder/bild7.webp",
+            "price": "400",
+            "newprice": "80",
+            "sizes": "Onesize"
+             },
+        
+             {
+            "id": 34,
+            "name": "Gold necklace",
+            "description": "Gold necklace with a round shape. The necklace is made of real gold. Availeble in one size only",
+            "sale": "90% off",
+            "category": "sale",
+            "imageUrl": "/bilder/bild8.webp",
+            "price": "4500",
+            "newprice": "450",
+            "sizes": "Onesize"
+             }
+     
+]
+  

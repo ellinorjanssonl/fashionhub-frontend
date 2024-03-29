@@ -1,0 +1,158 @@
+@keyframes scrollBanner {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+.banner {
+  background-color: rgba(0, 0, 0, 0.7);
+  color: rgb(198, 193, 188);
+  padding: 0.5rem;
+  position:absolute;
+  top: 1;
+  width: 100%;
+  letter-spacing: 0.5rem;
+  text-transform: uppercase;
+  white-space: nowrap;
+  overflow: hidden;
+  z-index: 100;
+}
+
+.banner-text {
+  display: inline-block;
+  animation: scrollBanner 15s linear infinite;
+}
+
+@keyframes scrollBanner {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.home {
+    display: flex;
+    width: 100%;
+    margin-bottom: 0.5rem;
+}
+
+.hero {
+    text-transform: uppercase;
+    letter-spacing: 1rem;   
+}
+
+.Intro-h1 {
+    font-size: 8rem;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-self: center;
+    position:absolute;
+    top: 40%;
+    color: transparent;
+    text-shadow: 1px 1px 1px rgba(223, 223, 223, 0.3);
+    z-index: 10;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+}
+
+.Intro-p {
+    font-size: 1rem;
+    font-weight: 900;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+    margin-top: 2rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-self: center;
+    position:absolute;
+    top: 70%;
+    color: white;
+    z-index: 10;
+}
+
+  .row {
+    display: flex;
+  }
+
+  .Cards {
+    border:none;
+    flex: 1;
+    margin: 0;
+    padding: 0;
+    max-width: 33%;
+    min-width: 33%; 
+    height: 100vh; /* Sätter kortets höjd till 100vh */
+    flex: 1; /* Fördelar utrymmet jämnt mellan korten i flexcontainern */
+  }
+
+  .Cards img {
+    width: 100%; 
+    height: 100vh;
+    border-radius: 0;
+    object-fit: cover;
+  }
+
+  .Cards p {
+    width: 90%;
+    padding: 1rem;
+    margin-top: 3rem;
+    font-size: 0.8rem;
+    font-family: 'poppins';
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .imagesrow {
+    max-width: 100%; 
+    height: auto; 
+  }
+
+  @media screen and (max-width: 768px) {
+    .Cards {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .Cards img {
+      width: 100%; 
+      max-height: 100%;
+    }
+
+    .Intro-h1 {
+      font-size: 3rem;
+      display: flex;
+      width: 100%;
+      margin-top: 0 1rem;
+      padding-bottom: 5rem;
+      flex-direction: column;
+      top: 0;
+      bottom: 0;
+    }
+
+    .Intro-p {
+      font-size: 1rem;
+      margin-top: 0 1rem;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      position: fixed;
+      top: 0;
+      bottom: 0;
+    }
+
+  }
